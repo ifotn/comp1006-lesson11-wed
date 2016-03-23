@@ -1,5 +1,10 @@
 <?php ob_start();
 
+// header and auth
+$page_title = 'Delete';
+require_once ('header.php');
+require_once ('auth.php');
+
 try {
     // identity the record the user wants to delete
     $beer_id = null;

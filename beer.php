@@ -1,7 +1,11 @@
-<?php
+<?php ob_start();
+
 // set title and show header
 $page_title = 'Beer Details';
 require('header.php');
+
+// auth
+require('auth.php');
 
 // initialize an empty id variable
 $beer_id = null;
@@ -44,6 +48,7 @@ if ((!empty($_GET['beer_id'])) && (is_numeric($_GET['beer_id']))) {
         }
 
         $price = $beer['price'];
+        $logo = $beer['logo'];
     }
 }
 ?>
@@ -51,7 +56,7 @@ if ((!empty($_GET['beer_id'])) && (is_numeric($_GET['beer_id']))) {
 <h1>Beer Information</h1>
 
 <p>* indicates Required Fields</p>
-<form method="post" action="save-beer.php">
+<form method="post" action="save-beer.php" enctype="multipart/form-data">
     <fieldset>
         <label for="name" class="col-sm-2">Name: *</label>
         <input name="name" id="name" required placeholder="Beer Name" value="<?php echo $name; ?>" />
@@ -72,8 +77,22 @@ if ((!empty($_GET['beer_id'])) && (is_numeric($_GET['beer_id']))) {
         <label for="price" class="col-sm-2">Price: *</label>
         <input name="price" id="price" required value="<?php echo $price; ?>" />
     </fieldset>
+
+    <fieldset>
+        <label for="logo" class="col-sm-2">Logo:</label>
+        <input type="file" name="logo" id="logo" />
+    </fieldset>
+
+    <?php if (!empty($logo)) {
+    echo '<div class="col-sm-offset-2">
+            <img title="Logo" src="images/' . $logo . '" class="img-circle" />
+        </div>';
+    }
+    ?>
+
     <input type="hidden" name="beer_id" id="beer_id" value="<?php echo $beer_id; ?>" />
     <button class="btn btn-primary col-sm-offset-2">Save</button>
 </form>
 
-<?php require('footer.php'); ?>
+<?php require('footer.php'); 
+ob_flush(); ?>

@@ -22,8 +22,22 @@
     </a>
 
     <ul class="nav navbar-nav navbar-right">
-        <li><a href="beer.php" title="Add">Add Beer</a></li>
-        <li><a href="beers.php" title="List">Beer Listings</a></li>
+    <?php
+
+    session_start();
+    if (!empty($_SESSION['user_id'])) {
+        // private links
+        echo '<li><a href="beer.php" title="Add">Add Beer</a></li>
+            <li><a href="beers.php" title="List">Beer Listings</a></li>
+            <li><a href="logout.php" title="Logout">Logout</a></li>';
+    }
+    else {
+        // public links
+        echo '<li><a href="register.php" title="Register">Register</a></li>
+            <li><a href="login.php" title="Login">Login</a></li>';
+    }
+    ?>
+
     </ul>
 </nav>
 

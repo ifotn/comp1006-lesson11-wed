@@ -1,13 +1,9 @@
-<?php ob_start(); ?>
+<?php ob_start();
 
-<!DOCTYPE html>
-    <html>
-    <head>
-        <meta content="text/html; charset=utf-8" http-equiv="content-type">
-        <title>Beer Saved</title>
-    </head>
-<body>
-<?php
+// header and auth
+$page_title = 'Saving your Beer';
+require_once ('header.php');
+require_once ('auth.php');
 
 try {
     // initialize variables
@@ -17,6 +13,8 @@ try {
     $light = null;
     $price = null;
     $beer_id = null;
+    $logo = null;
+    $final_name = null;
 
     // store the form inputs in variables
     $name = $_POST['name'];
@@ -55,6 +53,26 @@ try {
         $ok = false;
     }
 
+    // validate and process photo upload if we have one
+    if (!empty($_FILES['logo']['name'])) {
+        $logo = $_FILES['logo']['name'];
+
+        // get and check type
+        $type = $_FILES['logo']['type'];
+
+        if (($type == 'image/png') || ($type == 'image/jpeg')) {
+            // save the file - valid type
+            $final_name = session_id() . "-" . $logo;
+            $tmp_name = $_FILES['logo']['tmp_name'];
+            move_uploaded_file($tmp_name, "images/$final_name");
+        }
+        else {
+            echo 'Logo must be a JPG or PNG<br >';
+            $ok = false;
+        }
+    }
+
+
     // check if the form is ok to save or not
     if ($ok == true) {
 
@@ -63,11 +81,12 @@ try {
 
         // set up the SQL command to save the data
         if (empty($beer_id)) {
-            $sql = "INSERT INTO beers (name, alcohol_content, domestic, light, price)
-          VALUES (:name, :alcohol_content, :domestic, :light, :price)";
+            $sql = "INSERT INTO beers (name, alcohol_content, domestic, light, price, logo)
+          VALUES (:name, :alcohol_content, :domestic, :light, :price, :logo)";
         } else {
             $sql = "UPDATE beers SET name = :name, alcohol_content = :alcohol_content,
-          light = :light, domestic = :domestic, price = :price WHERE beer_id = :beer_id";
+          light = :light, domestic = :domestic, price = :price, logo = :logo
+           WHERE beer_id = :beer_id";
         }
 
         // create a command object
@@ -79,6 +98,7 @@ try {
         $cmd->bindParam(':domestic', $domestic, PDO::PARAM_BOOL);
         $cmd->bindParam(':light', $light, PDO::PARAM_BOOL);
         $cmd->bindParam(':price', $price, PDO::PARAM_INT);
+        $cmd->bindParam(':logo', $final_name, PDO::PARAM_STR, 255);
 
         // add the beer id if we have one for an update
         if (!empty($beer_id)) {

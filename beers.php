@@ -2,7 +2,11 @@
 
 // set title
 $page_title = 'Beer Listings';
-require('header.php'); ?>
+require('header.php');
+
+// auth check
+require('auth.php');
+?>
 
 <h1>Beer Listings</h1>
 

@@ -71,7 +71,12 @@ try {
             $ok = false;
         }
     }
-
+    else {
+        // if the user didn't upload a new logo, grab the existing logo name if there is one
+        if (!empty($_POST['current_logo'])) {
+            $final_name = $_POST['current_logo'];
+        }
+    }
 
     // check if the form is ok to save or not
     if ($ok == true) {

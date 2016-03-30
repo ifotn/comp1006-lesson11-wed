@@ -10,6 +10,15 @@ require('auth.php');
 
 <h1>Beer Listings</h1>
 
+<!-- search form -->
+<div class="col-sm-12 text-right">
+    <form method="get" action="beers.php" class="form-inline">
+        <label for="keywords">Keywords:</label>
+        <input name="keywords" id="keywords" />
+        <button class="btn btn-success">Search</button>
+    </form>
+</div>
+
 <?php
 
 try {
@@ -28,8 +37,13 @@ try {
     $conn = null;
 
     // start the grid with HTML
-    echo '<table class="table table-striped"><thead><th>Name</th><th>Alcohol Content</th>
-        <th>Domestic</th><th>Light</th><th>Price</th><th>Edit</th><th>Delete</th></thead><tbody>';
+    echo '<table class="table table-striped sortable"><thead>
+        <th><a href="#">Name</a></th>
+        <th><a href="#">Alcohol Content</a></th>
+        <th><a href="#">Domestic</a></th>
+        <th><a href="#">Light</a></th>
+        <th><a href="#">Price</a></th>
+        <th>Edit</th><th>Delete</th></thead><tbody>';
 
     /* loop through the data, displaying each value in a new column
     and each beer in a new row */

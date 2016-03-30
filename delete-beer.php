@@ -14,6 +14,18 @@ try {
         // connect
         require('db.php');
 
+        // get the logo if there is one from the beers table so we know which image to delete
+        $sql = "SELECT logo FROM beers WHERE beer_id = :beer_id";
+        $cmd = $conn->prepare($sql);
+        $cmd->bindParam(':beer_id', $beer_id, PDO::PARAM_INT);
+        $cmd->execute();
+        $logo = $cmd->fetchColumn();
+
+        // delete the image file if one is found in our query
+        if (!empty($logo)) {
+            unlink("images/$logo");
+        }
+
         // prepare and execute the SQL DELETE command
         $sql = "DELETE FROM beers WHERE beer_id = :beer_id";
 

@@ -91,6 +91,7 @@ if ((!empty($_GET['beer_id'])) && (is_numeric($_GET['beer_id']))) {
     ?>
 
     <input type="hidden" name="beer_id" id="beer_id" value="<?php echo $beer_id; ?>" />
+    <input type="hidden" name="current_logo" id="current_logo" value="<?php echo $logo; ?>" />
     <button class="btn btn-primary col-sm-offset-2">Save</button>
 </form>
 

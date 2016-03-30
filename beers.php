@@ -15,6 +15,10 @@ require('auth.php');
     <form method="get" action="beers.php" class="form-inline">
         <label for="keywords">Keywords:</label>
         <input name="keywords" id="keywords" />
+        <select name="search_type" id="search_type">
+            <option value="OR">Any Keyword</option>
+            <option value="AND">All Keywords</option>
+        </select>
         <button class="btn btn-success">Search</button>
     </form>
 </div>
@@ -26,11 +30,51 @@ try {
     require('db.php');
 
     // prepare the query
-    $sql = "SELECT * FROM beers ORDER BY name";
-    $cmd = $conn->prepare($sql);
+    $sql = "SELECT * FROM beers";
+    $keyword_list = null;
+
+    // check for keywords, build the WHERE clause dynamically
+    if (!empty($_GET['keywords'])) {
+        $keywords = $_GET['keywords'];
+
+        // convert 1 single keyword value into a list of separate values
+        $keyword_list = explode(" ", $keywords);
+
+        // start building the WHERE clause
+        $sql .= " WHERE ";
+        $counter = 0;
+
+        // set the search type AND/OR
+        $search_type = $_GET['search_type'];
+
+        // check the word_list array
+        foreach($keyword_list as $word) {
+
+            // add the word OR if we are not on the first keyword
+            if ($counter > 0) {
+                $sql .= " $search_type ";
+            }
+
+            //works but breaks with special characters
+            //$sql .= " name LIKE '%" . $word . "%'";
+
+            $sql .= " name LIKE ?";
+            $keyword_list[$counter] = '%' . $word . '%';
+
+            $counter++;
+            //echo "$word <br />";
+        }
+    }
+
+    // echo $sql;
+
+    // add order by clause
+    $sql .= " ORDER BY name";
+   // $sql = $sql . "  ORDER BY name";
 
     // run the query and store the results
-    $cmd->execute();
+    $cmd = $conn->prepare($sql);
+    $cmd->execute($keyword_list);
     $beers = $cmd->fetchAll();
 
     // disconnect

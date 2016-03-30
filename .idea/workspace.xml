@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="57f07f5a-3bc6-4707-8ac9-394c312a2b5f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/beers.php" afterPath="$PROJECT_DIR$/beers.php" />
     </list>
     <ignored path="wed.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,7 +28,7 @@
       <file leaf-file-name="beer.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/beer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.55">
+            <state vertical-scroll-proportion="0.0">
               <caret line="93" column="1" selection-start-line="93" selection-start-column="1" selection-end-line="93" selection-end-column="94" />
               <folding>
                 <marker date="1459346880949" expanded="true" signature="558:602" placeholder="SELECT * FRO... beers" />
@@ -43,7 +44,7 @@
       <file leaf-file-name="save-beer.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/save-beer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.55">
+            <state vertical-scroll-proportion="0.0">
               <caret line="79" column="0" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
               <folding>
                 <marker date="1459347527378" expanded="true" signature="2361:2509" placeholder="INSERT INTO beers... " />
@@ -56,8 +57,8 @@
       <file leaf-file-name="delete-beer.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/delete-beer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.775">
-              <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+            <state vertical-scroll-proportion="-8.525">
+              <caret line="32" column="62" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="62" />
               <folding>
                 <marker date="1459345459422" expanded="true" signature="421:468" placeholder="SELECT logo beers" />
                 <marker date="1459345459422" expanded="true" signature="842:884" placeholder="DELETE FROM " />
@@ -66,29 +67,35 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="beers.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="beers.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/beers.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.1">
-              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="5" />
+            <state vertical-scroll-proportion="0.7715959">
+              <caret line="73" column="0" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
               <folding>
-                <marker date="1459348887865" expanded="true" signature="530:563" placeholder="SELECT * FRO... beers" />
-                <marker date="1459348887865" expanded="true" signature="818:1084" placeholder="..." />
-                <marker date="1459348887865" expanded="true" signature="825:1077" placeholder="..." />
-                <marker date="1459348887865" expanded="true" signature="1240:1715" placeholder="..." />
-                <marker date="1459348887865" expanded="true" signature="1571:1697" placeholder="..." />
-                <marker date="1459348887865" expanded="true" signature="1630:1692" placeholder="..." />
+                <marker date="1459352411326" expanded="true" signature="707:726" placeholder="SELECT * FRO... beers" />
+                <marker date="1459352411326" expanded="true" signature="2090:2356" placeholder="..." />
+                <marker date="1459352411326" expanded="true" signature="2097:2349" placeholder="..." />
+                <marker date="1459352411326" expanded="true" signature="2512:2987" placeholder="..." />
+                <marker date="1459352411326" expanded="true" signature="2843:2969" placeholder="..." />
+                <marker date="1459352411326" expanded="true" signature="2902:2964" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.1336207">
-              <caret line="3" column="61" selection-start-line="3" selection-start-column="61" selection-end-line="3" selection-end-column="61" />
-              <folding />
+          <provider editor-type-id="MultiMarkdownFxPreviewEditor">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="split-provider[text-editor;MultiMarkdownPreviewEditor]">
+            <state split_layout="FIRST">
+              <first_editor vertical-scroll-proportion="0.0">
+                <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -106,7 +113,7 @@
       <file leaf-file-name="footer.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/footer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.55">
+            <state vertical-scroll-proportion="0.0">
               <caret line="13" column="35" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
               <folding />
             </state>
@@ -138,8 +145,8 @@
         <option value="$PROJECT_DIR$/beer.php" />
         <option value="$PROJECT_DIR$/save-beer.php" />
         <option value="$PROJECT_DIR$/footer.php" />
-        <option value="$PROJECT_DIR$/beers.php" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/beers.php" />
       </list>
     </option>
   </component>
@@ -276,6 +283,87 @@
     <entry file="file://$PROJECT_DIR$/beer.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
+          <caret line="93" column="1" selection-start-line="93" selection-start-column="1" selection-end-line="93" selection-end-column="94" />
+          <folding>
+            <marker date="1459346880949" expanded="true" signature="558:602" placeholder="SELECT * FRO... beers" />
+            <marker date="1459346880949" expanded="true" signature="2491:2534" placeholder="..." />
+            <marker date="1459346880949" expanded="true" signature="2491:2535" placeholder="..." />
+            <marker date="1459346880949" expanded="true" signature="2491:2555" placeholder="..." />
+            <marker date="1459346880949" expanded="true" signature="2491:2585" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/save-beer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="79" column="0" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
+          <folding>
+            <marker date="1459347527378" expanded="true" signature="2361:2509" placeholder="INSERT INTO beers... " />
+            <marker date="1459347527378" expanded="true" signature="2549:2728" placeholder="UPDATE beers... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/delete-beer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding>
+            <marker date="1459345459422" expanded="true" signature="421:468" placeholder="SELECT logo beers" />
+            <marker date="1459345459422" expanded="true" signature="842:884" placeholder="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/beers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="5" />
+          <folding>
+            <marker date="1459352411326" expanded="true" signature="707:726" placeholder="SELECT * FRO... beers" />
+            <marker date="1459352411326" expanded="true" signature="2090:2356" placeholder="..." />
+            <marker date="1459352411326" expanded="true" signature="2097:2349" placeholder="..." />
+            <marker date="1459352411326" expanded="true" signature="2512:2987" placeholder="..." />
+            <marker date="1459352411326" expanded="true" signature="2843:2969" placeholder="..." />
+            <marker date="1459352411326" expanded="true" signature="2902:2964" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider editor-type-id="MultiMarkdownFxPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;MultiMarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor vertical-scroll-proportion="0.0">
+            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scripts/sorttable.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="49" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="35" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/beer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <marker date="1459346880949" expanded="true" signature="558:602" placeholder="SELECT * FRO... beers" />
@@ -302,7 +390,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -310,7 +397,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -318,7 +404,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -326,7 +411,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -345,7 +429,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -353,9 +436,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="27" column="48" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="48" />
-          <folding>
-            <marker date="1458143178050" expanded="true" signature="152:229" placeholder="SELECT user_... users" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -364,12 +444,12 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding>
-            <marker date="1459348887865" expanded="true" signature="530:563" placeholder="SELECT * FRO... beers" />
-            <marker date="1459348887865" expanded="true" signature="818:1084" placeholder="..." />
-            <marker date="1459348887865" expanded="true" signature="825:1077" placeholder="..." />
-            <marker date="1459348887865" expanded="true" signature="1240:1715" placeholder="..." />
-            <marker date="1459348887865" expanded="true" signature="1571:1697" placeholder="..." />
-            <marker date="1459348887865" expanded="true" signature="1630:1692" placeholder="..." />
+            <marker date="1459352411326" expanded="true" signature="707:726" placeholder="SELECT * FRO... beers" />
+            <marker date="1459352411326" expanded="true" signature="2090:2356" placeholder="..." />
+            <marker date="1459352411326" expanded="true" signature="2097:2349" placeholder="..." />
+            <marker date="1459352411326" expanded="true" signature="2512:2987" placeholder="..." />
+            <marker date="1459352411326" expanded="true" signature="2843:2969" placeholder="..." />
+            <marker date="1459352411326" expanded="true" signature="2902:2964" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -432,7 +512,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="38" selection-start-line="0" selection-start-column="35" selection-end-line="0" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -452,12 +531,12 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1459348887865" expanded="true" signature="530:563" placeholder="SELECT * FRO... beers" />
-            <marker date="1459348887865" expanded="true" signature="818:1084" placeholder="..." />
-            <marker date="1459348887865" expanded="true" signature="825:1077" placeholder="..." />
-            <marker date="1459348887865" expanded="true" signature="1240:1715" placeholder="..." />
-            <marker date="1459348887865" expanded="true" signature="1571:1697" placeholder="..." />
-            <marker date="1459348887865" expanded="true" signature="1630:1692" placeholder="..." />
+            <marker date="1459352411326" expanded="true" signature="707:726" placeholder="SELECT * FRO... beers" />
+            <marker date="1459352411326" expanded="true" signature="2090:2356" placeholder="..." />
+            <marker date="1459352411326" expanded="true" signature="2097:2349" placeholder="..." />
+            <marker date="1459352411326" expanded="true" signature="2512:2987" placeholder="..." />
+            <marker date="1459352411326" expanded="true" signature="2843:2969" placeholder="..." />
+            <marker date="1459352411326" expanded="true" signature="2902:2964" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -522,9 +601,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.2254758">
           <caret line="27" column="48" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="48" />
-          <folding>
-            <marker date="1458143178050" expanded="true" signature="152:229" placeholder="SELECT user_... users" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -532,7 +608,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.045387994">
           <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -540,7 +615,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.31771597">
           <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -548,7 +622,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.0893118">
           <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -556,7 +629,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.45387995">
           <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -564,7 +636,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6808199">
           <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -572,24 +643,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="56" selection-start-line="0" selection-start-column="56" selection-end-line="0" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/delete-beer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.775">
-          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding>
-            <marker date="1459345459422" expanded="true" signature="421:468" placeholder="SELECT logo beers" />
-            <marker date="1459345459422" expanded="true" signature="842:884" placeholder="DELETE FROM " />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/beer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.55">
+        <state vertical-scroll-proportion="0.0">
           <caret line="93" column="1" selection-start-line="93" selection-start-column="1" selection-end-line="93" selection-end-column="94" />
           <folding>
             <marker date="1459346880949" expanded="true" signature="558:602" placeholder="SELECT * FRO... beers" />
@@ -603,7 +662,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/save-beer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.55">
+        <state vertical-scroll-proportion="0.0">
           <caret line="79" column="0" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
           <folding>
             <marker date="1459347527378" expanded="true" signature="2361:2509" placeholder="INSERT INTO beers... " />
@@ -614,7 +673,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/footer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.55">
+        <state vertical-scroll-proportion="0.0">
           <caret line="13" column="35" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
           <folding />
         </state>
@@ -628,26 +687,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/beers.php">
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.12863071">
+          <caret line="3" column="61" selection-start-line="3" selection-start-column="61" selection-end-line="3" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MultiMarkdownFxPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;MultiMarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor vertical-scroll-proportion="0.0">
+            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/delete-beer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.1">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="5" />
+        <state vertical-scroll-proportion="-8.525">
+          <caret line="32" column="62" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="62" />
           <folding>
-            <marker date="1459348887865" expanded="true" signature="530:563" placeholder="SELECT * FRO... beers" />
-            <marker date="1459348887865" expanded="true" signature="818:1084" placeholder="..." />
-            <marker date="1459348887865" expanded="true" signature="825:1077" placeholder="..." />
-            <marker date="1459348887865" expanded="true" signature="1240:1715" placeholder="..." />
-            <marker date="1459348887865" expanded="true" signature="1571:1697" placeholder="..." />
-            <marker date="1459348887865" expanded="true" signature="1630:1692" placeholder="..." />
+            <marker date="1459345459422" expanded="true" signature="421:468" placeholder="SELECT logo beers" />
+            <marker date="1459345459422" expanded="true" signature="842:884" placeholder="DELETE FROM " />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/beers.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1336207">
-          <caret line="3" column="61" selection-start-line="3" selection-start-column="61" selection-end-line="3" selection-end-column="61" />
-          <folding />
+        <state vertical-scroll-proportion="0.7715959">
+          <caret line="73" column="0" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
+          <folding>
+            <marker date="1459352411326" expanded="true" signature="707:726" placeholder="SELECT * FRO... beers" />
+            <marker date="1459352411326" expanded="true" signature="2090:2356" placeholder="..." />
+            <marker date="1459352411326" expanded="true" signature="2097:2349" placeholder="..." />
+            <marker date="1459352411326" expanded="true" signature="2512:2987" placeholder="..." />
+            <marker date="1459352411326" expanded="true" signature="2843:2969" placeholder="..." />
+            <marker date="1459352411326" expanded="true" signature="2902:2964" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
